@@ -132,7 +132,7 @@
 
     //====ragi slider================
     var swiper = new Swiper(".ragi__slider", {
-        slidesPerView: 2,
+        slidesPerView: "auto",
         spaceBetween: 20,
         loop: true,
         autoplay: {
@@ -149,11 +149,11 @@
                 spaceBetween: 20,
             },
             1199: {
-                slidesPerView: 4,
+                slidesPerView: 7,
                 spaceBetween: 20,
             },
             1439: {
-                slidesPerView: 5,
+                slidesPerView: 9,
                 spaceBetween: 20,
             },
         },

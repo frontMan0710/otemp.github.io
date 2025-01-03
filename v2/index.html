@@ -31,6 +31,17 @@
 	div.about--style3 {
 		margin: 0;
 	}
+	@media (max-width: 991px) and (min-width: 576px) {
+		button.nav-link > img {
+			display: none;
+		}
+	}
+	@media (max-width: 1440px) {
+		.work__inner .work__content {
+			padding: 20px;
+		}
+	}
+
 </style>
 <body>
     <div class="preloader">
@@ -919,11 +930,11 @@
 			</div>
 			<div class="section__wrapper wow fadeInUp" data-wow-duration="1.5s">
 				<div class="d-xl-flex align-items-start work__area">
-					<div class="nav flex-xl-column nav-pills me-xl-4 work__tablist" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-						<button class="nav-link" id="work__tab1-tab" data-bs-toggle="pill" data-bs-target="#work__tab1" type="button" role="tab" aria-controls="work__tab1" aria-selected="true"><img src="assets/images/work/01.png" alt="dating thumb" class="me-3"><span>Search Your Partner</span></button>
-						<button class="nav-link active" id="work__tab2-tab" data-bs-toggle="pill" data-bs-target="#work__tab2" type="button" role="tab" aria-controls="work__tab2" aria-selected="false"><img src="assets/images/work/02.png" alt="dating thumb" class="me-3"><span>100% Match People</span></button>
-						<button class="nav-link" id="work__tab3-tab" data-bs-toggle="pill" data-bs-target="#work__tab3" type="button" role="tab" aria-controls="work__tab3" aria-selected="false"><img src="assets/images/work/03.png" alt="dating thumb" class="me-3"><span>Find Out Partner</span></button>
-						<button class="nav-link" id="work__tab4-tab" data-bs-toggle="pill" data-bs-target="#work__tab4" type="button" role="tab" aria-controls="work__tab4" aria-selected="false"><img src="assets/images/work/04.png" alt="dating thumb" class="me-3"><span>Live The Story</span></button>
+					<div class="nav flex-xl-column row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-1 nav-pills me-xl-4 work__tablist" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<button class="nav-link col d-flex" id="work__tab1-tab" data-bs-toggle="pill" data-bs-target="#work__tab1" type="button" role="tab" aria-controls="work__tab1" aria-selected="true"><img src="assets/images/work/01.png" alt="dating thumb" class="me-3"><span>Search Your Partner</span></button>
+						<button class="nav-link col d-flex active" id="work__tab2-tab" data-bs-toggle="pill" data-bs-target="#work__tab2" type="button" role="tab" aria-controls="work__tab2" aria-selected="false"><img src="assets/images/work/02.png" alt="dating thumb" class="me-3"><span>100% Match People</span></button>
+						<button class="nav-link col d-flex" id="work__tab3-tab" data-bs-toggle="pill" data-bs-target="#work__tab3" type="button" role="tab" aria-controls="work__tab3" aria-selected="false"><img src="assets/images/work/03.png" alt="dating thumb" class="me-3"><span>Find Out Partner</span></button>
+						<button class="nav-link col d-flex" id="work__tab4-tab" data-bs-toggle="pill" data-bs-target="#work__tab4" type="button" role="tab" aria-controls="work__tab4" aria-selected="false"><img src="assets/images/work/04.png" alt="dating thumb" class="me-3"><span>Live The Story</span></button>
 					</div>
 					<div class="tab-content work__tabcontent" id="v-pills-tabContent">
 						<div class="tab-pane fade" id="work__tab1" role="tabpanel" aria-labelledby="work__tab1-tab">
