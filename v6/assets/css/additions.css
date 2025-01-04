@@ -1,0 +1,39 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #f24570!important;
+}
+.rose_btn:hover > span {
+    color: #ffffff; !important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+.section__wrapper .row .col .banner__content {
+    display: flex;
+    justify-content: flex-end;
+}
+div.about--style3, .about--style2 {
+    margin: 0;
+    /* reset unless indentation */
+}
+.about__left .about__top .section__header p {
+    margin: 0;
+}
+.about__bottom--navi {
+    display: flex;
+    align-items: center;
+}
+.about__bottom--navi a {
+    margin-right: 20px;
+}
+.post-meta-top p a span {
+    margin-left: 10px;
+}

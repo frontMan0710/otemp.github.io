@@ -1,0 +1,33 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #f24570!important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+div.about--style3, .about--style2 {
+    margin: 0;
+    /* reset unless indentation */
+}
+.post-meta-top p a span {
+    margin-left: 10px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    button.nav-link > img {
+        display: none;
+    }
+}
+@media (max-width: 1440px) {
+    .work__inner .work__content {
+        padding: 20px;
+    }
+}
