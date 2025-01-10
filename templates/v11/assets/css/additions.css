@@ -1,0 +1,128 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #f24570!important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+.rose_btn:hover > span {
+    color: #ffffff; !important;
+}
+.default-btn {
+    background-color: #0b5ed7 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px -1px rgba(0, 175, 255, 0.15) !important;
+}
+.default-btn > span {
+    color: #ffffff;
+}
+.default-btn.rose_btn {
+    background-color: #f24570 !important;
+}
+.default-btn.bg-white {
+    background-color: #ffffff !important;
+}
+.blue {
+    background-color: #0b5ed7 !important;
+    color: #ffffff !important;
+}
+.primary {
+    background-color: #c7edff !important;
+    color: #00afff !important;
+}
+.primary > span {
+    color: inherit !important;
+}
+.tab-pane .work__item .work__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.nav .nav-link.active {
+    background-color: #c7edff !important;
+}
+.nav .nav-link.active > span {
+    color: #00afff !important;
+}
+@media (max-width: 767px) {
+    button.nav-link > img {
+        display: none;
+    }
+    .tab-pane .work__item .work__inner {
+        flex-direction: column;
+        height: max-content;
+    }
+    .tab-pane .work__item .work__inner .work__thumb {
+        width: 100%; !important;
+    }
+    .tab-pane .work__item .work__inner .work__content {
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .tab-pane .work__item .work__inner .work__content {
+        padding: 0 30px 0 30px;
+    }
+}
+.pageheader .container .pageheader__content h2, nav ol.breadcrumb li.breadcrumb-item > a {
+    color: #ffffff !important;
+}
+.breadcrumb-item.active {
+    color: #ffffff !important;
+}
+.member__info .member__info--left .member__info--count p, .member__info .member__info--right .member__info--customselect .banner__inputlist, .member__info .member__info--right .member__info--customselect .banner__inputlist select {
+    background-color: #c7edff !important;
+    color: #00afff !important;
+}
+.member__info--customselect .default-btn::after {
+    border-right-color: #c7edff !important;
+}
+.member__info--count p::after {
+    border-right-color: #c7edff !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a:hover {
+    background-color: #c7edff !important;
+    color: #007aff !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a.active {
+    background-color: #0b5ed7 !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a.active:hover {
+    background-color: #c7edff !important;
+    color: #007aff !important;
+}
+.terms-text ol {
+    list-style: decimal;
+}
+.terms-text ol li::marker {
+    color: #f24570 !important;
+}
+.terms-header p span {
+    color: #f24570 !important;
+}
+
+.contentCard {
+    margin: 0;
+}
+.section__wrapper .right {
+    background-size: cover !important;
+}
+.group__bottom--right .active-member .modal-header ul li button.active {
+    color: #00afff !important;
+}
+footer .footer__top {
+    background-color: #4938C4;
+}
+.group__bottom .container .row .col-xl-9 .section__wrapper .row .member__item {
+    min-width: calc(100% / 3);
+    max-width: calc(100% / 1);
+}
