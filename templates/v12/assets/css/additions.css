@@ -144,3 +144,8 @@
 .footer__newsletter--title h4 {
     margin: 0;
 }
+.section__wrapper .right, .app--style2::after {
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
