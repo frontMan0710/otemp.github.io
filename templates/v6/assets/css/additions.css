@@ -37,3 +37,8 @@ div.about--style3, .about--style2 {
 .post-meta-top p a span {
     margin-left: 10px;
 }
+@media (max-width: 992px) {
+    .banner .section__wrapper .row .col-lg-5 .banner__content {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,180 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #f24570!important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+.rose_btn:hover > span {
+    color: #ffffff; !important;
+}
+.default-btn {
+    background-color: #0b5ed7 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px -1px rgba(0, 175, 255, 0.15) !important;
+}
+.default-btn > span {
+    color: #ffffff;
+}
+.default-btn.rose_btn {
+    background-color: #f24570 !important;
+}
+.default-btn.bg-white {
+    background-color: #ffffff !important;
+}
+.blue {
+    background-color: #0b5ed7 !important;
+    color: #ffffff !important;
+}
+.primary {
+    background-color: #c7edff !important;
+    color: #00afff !important;
+}
+.primary > span {
+    color: inherit !important;
+}
+.tab-pane .work__item .work__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.nav .nav-link.active {
+    background-color: #c7edff !important;
+}
+.nav .nav-link.active > span {
+    color: #00afff !important;
+}
+@media (max-width: 1399px) {
+    button.nav-link > img {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .tab-pane .work__item .work__inner {
+        flex-direction: column;
+        height: max-content;
+    }
+    .tab-pane .work__item .work__inner .work__thumb {
+        width: 100%; !important;
+    }
+    .tab-pane .work__item .work__inner .work__content {
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .tab-pane .work__item .work__inner .work__content {
+        padding: 0 30px 0 30px;
+    }
+}
+.post-meta-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.post-meta-top p {
+    margin: 0;
+}
+.post-meta-top p a span {
+    margin-left: 10px;
+}
+.about__right.blue form .banner__list .banner__inputlist, .banner__inputlist select {
+    background-color: #0a53be !important;
+}
+.about__right.blue form button {
+    background-color: #ffffff !important;
+}
+.about__right.blue form button span {
+    color: #0b5ed7 !important;
+}
+.primary {
+    background-color: #c7edff !important;
+    color: #00afff !important;
+}
+.primary > span {
+    color: inherit !important;
+}
+
+div.about--style3, .about--style2 {
+    margin: 0;
+    /* reset unless indentation */
+}
+
+.col .banner__thumb {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+    max-height: 444px;
+    width: 100%;
+    /* center the image  */
+}
+
+.about.about--style2 {
+    width: 100%; !important;
+}
+
+.ragi__slider .swiper-wrapper .swiper-slide {
+    width: max-content;
+}
+
+.about__left .about__bottom .about__bottom--head {
+    display: flex;
+    justify-content: center;
+    gap: 92px;
+}
+.section__wrapper .row .col .about__item .about__inner .about__thumb img {
+    border-radius: 0;
+}
+.app__inner .app__content h4 {
+    color: #0b5ed7;
+}
+
+.about__left .about__top .section__header p {
+    margin: 0;
+}
+.about__bottom--navi {
+    display: flex;
+    align-items: center;
+}
+.about__bottom--navi a {
+    margin-right: 20px;
+}
+.member__info .member__info--left .member__info--count p, .member__info .member__info--right .member__info--customselect .banner__inputlist, .member__info .member__info--right .member__info--customselect .banner__inputlist select {
+    background-color: #c7edff !important;
+    color: #00afff !important;
+}
+.member__info--customselect .default-btn::after {
+    border-right-color: #c7edff !important;
+}
+.member__info--count p::after {
+    border-right-color: #c7edff !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a:hover {
+    background-color: #c7edff !important;
+    color: #007aff !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a.active {
+    background-color: #0b5ed7 !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a.active:hover {
+    background-color: #c7edff !important;
+    color: #007aff !important;
+}
+.terms-text ol {
+    list-style: decimal;
+}
+.terms-text ol li::marker {
+    color: #007aff !important;
+}
+.terms-header p span {
+    color: #007aff !important;
+}
