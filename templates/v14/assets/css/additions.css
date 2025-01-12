@@ -1,0 +1,141 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #f24570!important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+.rose_btn:hover > span {
+    color: #ffffff; !important;
+}
+.default-btn, .scrollToTop i {
+    background-color: #0b5ed7 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px -1px rgba(0, 175, 255, 0.15) !important;
+}
+.default-btn > span {
+    color: #ffffff !important;
+}
+.blue {
+    background-color: #0b5ed7 !important;
+    color: #ffffff !important;
+}
+.tab-pane .work__item .work__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.nav .nav-link.active {
+    background-color: #c7edff !important;
+}
+.nav .nav-link.active > span {
+    color: #00afff !important;
+}
+@media (max-width: 767px) {
+    button.nav-link > img {
+        display: none;
+    }
+    .tab-pane .work__item .work__inner {
+        flex-direction: column;
+        height: max-content;
+    }
+    .tab-pane .work__item .work__inner .work__thumb {
+        width: 100%; !important;
+    }
+    .tab-pane .work__item .work__inner .work__content {
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .tab-pane .work__item .work__inner .work__content {
+        padding: 0 30px 0 30px;
+    }
+}
+
+.catalogPageheader .container .pageheader__content p {
+    line-height: 30px;
+    font-size: 1.125rem;
+}
+.member__info .member__info--left .member__info--count p, .member__info .member__info--right .member__info--customselect .banner__inputlist, .member__info .member__info--right .member__info--customselect .banner__inputlist select {
+    background-color: #c7edff !important;
+    color: #00afff !important;
+    max-width: 100%;
+}
+.member__info--customselect .default-btn::after {
+    border-right-color: #c7edff !important;
+}
+.member__info--count p::after {
+    border-right-color: #c7edff !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a:hover {
+    background-color: #c7edff !important;
+    color: #007aff !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a.active {
+    background-color: #0b5ed7 !important;
+}
+.member__pagination .member__pagination--right .default-pagination li a.active:hover {
+    background-color: #c7edff !important;
+    color: #007aff !important;
+}
+
+
+.terms-text ol {
+    list-style: decimal;
+}
+.terms-text ol li::marker {
+    color: #0b5ed7 !important;
+}
+.terms-header p span {
+    color: #0b5ed7 !important;
+}
+.rowCard {
+    margin: 0;
+}
+.rowCard .about__item {
+    padding: 30px;
+}
+.rowCard .about__item .about__inner {
+    display: flex;
+    align-items: center !important;
+    gap: 20px;
+    height: 100px;
+    padding: 0;
+}
+.rowCard .about__item .about__inner .about__thumb {
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    margin: 0;
+}
+.rowCard .about__item .about__inner .about__thumb img {
+    width: 100%;
+}
+.rowCard .about__item .about__inner .about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.contentCard .about__item .about__inner {
+    padding: 60px 30px;
+}
+
+.section__wrapper .right, .app--style2::after {
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+.group__bottom--right .active-member .modal-header ul li button.active {
+    color: #00afff !important;
+}
