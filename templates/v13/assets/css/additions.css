@@ -178,3 +178,6 @@ div.about--style3, .about--style2 {
 .terms-header p span {
     color: #007aff !important;
 }
+.modal select {
+    background-color: inherit !important;
+}
