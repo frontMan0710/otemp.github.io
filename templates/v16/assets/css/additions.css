@@ -1,7 +1,7 @@
 .rose_text{
     color: #f24570!important;
 }
-.rose_btn{
+.rose {
     background-color: #f24570!important;
 }
 .round_btn{
@@ -12,4 +12,57 @@
 }
 .white_text:hover{
     color: #ffffff!important;
+}
+
+header .header__top a, header .header__top li {
+    color: #213366 !important;
+}
+
+header .header__bottom ul {
+    background-color: #f24570 !important;
+}
+header .header__bottom ul li a {
+    color: #ffffff !important;
+}
+.about.about--style2 {
+    margin-top: 0 !important;
+}
+
+.member .container .section__header.style-2 p, .about .container .section__header.style-2 p {
+    margin: 0;
+}
+.about .container .section__wrapper .aboutCard {
+    margin-top: 25px;
+}
+.aboutCard:first-child, .aboutCard:nth-child(2) {
+    margin-top: 0 !important; /* redefine previous style */
+}
+.about .container .section__wrapper .row .col-lg-5 .banner__thumb {
+    height: inherit !important;
+}
+.about .container .section__wrapper .row .col-lg-5 .banner__thumb img {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+.app.app--style2::after {
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 576px) {
+    .footer__content {
+        width: max-content !important;
+        margin: 0 auto !important;
+    }
+    .footerAbout {
+        width: auto !important;
+    }
+}
+.group__bottom .container .row .col-xl-9 .section__wrapper .row .member__item {
+    min-width: calc(100% / 3);
+    max-width: calc(100% / 1);
+}
+.terms-text ol {
+    list-style: decimal;
 }
