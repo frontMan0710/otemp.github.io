@@ -46,12 +46,11 @@ div.about--style3, .about--style2 {
 .banner .container .section__wrapper .row .col-lg-5 .banner__content .banner__title h2, h2 span, p {
     color: inherit !important;
 }
-.footer__content {
-    width: max-content !important;
-    margin: 0 auto !important;
-}
-.footer__content > .footer__content--title h4, .footer__content--desc li a {
-    color: #ffffff !important;
+@media (min-width: 576px) {
+    .footer__content {
+        width: max-content !important;
+        margin: 0 auto !important;
+    }
 }
 nav ol.breadcrumb li a {
     color: #ffffff !important;
@@ -104,4 +103,7 @@ header .header__bottom > a {
 }
 .member__thumb::after {
     background: linear-gradient(to top, #0b5ed7, #0b5ed726, #0b5ed700, #0b5ed700) !important;
+}
+.terms-text ol {
+    list-style: decimal;
 }
