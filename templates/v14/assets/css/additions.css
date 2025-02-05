@@ -139,3 +139,7 @@
 .group__bottom--right .active-member .modal-header ul li button.active {
     color: #00afff !important;
 }
+.rowCard .about__item .about__inner:hover {
+    transform: translate(0%) !important;
+    box-shadow: none !important;
+}

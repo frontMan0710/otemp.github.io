@@ -1,0 +1,107 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #fc6190 !important;
+}
+.rose_btn:hover > span {
+    color: #ffffff; !important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.dark_text {
+    color: #213366 !important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+.section__wrapper .row .col .banner__content {
+    display: flex;
+    justify-content: flex-end;
+}
+/* div.about--style3, .about--style2 {
+    margin: 0;
+    /* reset unless indentation
+}*/
+
+.about__left .about__top .section__header p {
+    margin: 0;
+}
+.about__bottom--navi {
+    display: flex;
+    align-items: center;
+}
+.about__bottom--navi a {
+    margin-right: 20px;
+}
+.post-meta-top p a span {
+    margin-left: 10px;
+}
+@media (max-width: 992px) {
+    .banner .section__wrapper .row .col-lg-5 .banner__content {
+        margin-top: 40px;
+    }
+}
+.rowCard {
+    margin: 0;
+}
+.rowCard .about__item {
+    padding: 30px;
+}
+.rowCard .about__item .about__inner {
+    display: flex;
+    align-items: center !important;
+    gap: 20px;
+    height: 100px;
+    padding: 0;
+}
+.rowCard .about__item .about__inner .about__thumb {
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    margin: 0;
+}
+.rowCard .about__item .about__inner .about__thumb img {
+    width: 100%;
+}
+.rowCard .about__item .about__inner .about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.contentCard .about__item .about__inner {
+    padding: 60px 30px;
+}
+.rowCard .about__item .about__inner:hover {
+    transform: translate(0%) !important;
+    box-shadow: none !important;
+}
+.banner__content .banner__title p {
+    color: #213366 !important;
+}
+.section__wrapper .right, .app--style2::after {
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 576px) {
+    .footer__content {
+        width: max-content !important;
+        margin: 0 auto !important;
+    }
+}
+.header__more button {
+    background-color: inherit !important;
+}
+.breadcrumb-item::before {
+    color: #213366 !important;
+}
+.breadcrumb-item.active {
+    color: #ffffff;
+}
