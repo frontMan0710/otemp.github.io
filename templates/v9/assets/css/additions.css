@@ -1,0 +1,118 @@
+.rose_text{
+    color: #f24570!important;
+}
+.rose_btn{
+    background-color: #f24570!important;
+}
+.round_btn{
+    border-radius: 25px;
+}
+.white_text{
+    color: #ffffff!important;
+}
+.white_text:hover{
+    color: #ffffff!important;
+}
+.section__wrapper .right, .app--style2::after {
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 425px) {
+    .galleryCol {
+        flex-direction: column;
+    }
+}
+.work__item .work__content {
+    width: 100%;
+}
+
+a.default-btn.rose_btn:hover > span {
+    color: #ffffff !important;
+}
+
+.col:first-child > .membership__item .membership__inner .membership__head p {
+    background-color: #daefff;
+}
+.col:first-child > .membership__item .membership__inner .membership__body h4 {
+    color: #2e87ff;
+}
+.col:first-child > .membership__item .membership__inner .membership__body ul li i.fa-solid.fa-circle-check {
+    color: #2e87ff;
+}
+.col:first-child > .membership__item .membership__inner .membership__footer a {
+    background-color: #daefff;
+}
+.col:first-child > .membership__item .membership__inner .membership__footer a span {
+    color: #2e87ff;
+}
+.col:first-child > .membership__item .membership__inner .membership__footer a:hover {
+    background-color: #2e87ff;
+}
+.col:first-child > .membership__item .membership__inner .membership__footer a:hover > span {
+    color: #ffffff;
+}
+
+.col:last-child > .membership__item .membership__inner .membership__head p {
+    background-color: #ffeef1;
+}
+.col:last-child > .membership__item .membership__inner .membership__body h4 {
+    color: #f24570;
+}
+.col:last-child > .membership__item .membership__inner .membership__body ul li i.fa-solid.fa-circle-check {
+    color: #f24570;
+}
+.col:last-child > .membership__item .membership__inner .membership__footer a {
+    background-color: #ffeef1;
+}
+.col:last-child > .membership__item .membership__inner .membership__footer a span {
+    color: #f24570;
+}
+.col:last-child > .membership__item .membership__inner .membership__footer a:hover {
+    background-color: #f24570;
+}
+.col:last-child > .membership__item .membership__inner .membership__footer a:hover > span {
+    color: #ffffff;
+}
+
+.col .member__inner {
+    position: relative !important;
+}
+.col .member__inner .member__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.col .member__inner .member__backdrop::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+.col .member__inner .member__content a h5 {
+    color: #ffffff;
+}
+.col .member__inner .member__backdrop img {
+    width: 100%;
+    height: 100%;
+}
+.col .member__inner .member__thumb {
+    border: 3px solid #ffffff;
+}
+@media (min-width: 1200px) {
+    .aside {
+        position: relative;
+    }
+    .group__bottom--right {
+        position: sticky !important;
+        top: 115px;
+    }
+    .group__bottom--right .modal-content {
+        overflow-y: auto;
+    }
+}
